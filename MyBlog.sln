@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazServDemo", "BlazServDemo\BlazServDemo.csproj", "{52CADD5D-F44D-44BC-92C9-1FB5E9F7039E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazWasmDemo", "BlazWasmDemo", "{25961A62-65F6-4CF1-92FC-BA9B04F25137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazWasmDemo.Server", "BlazWasmDemo\Server\BlazWasmDemo.Server.csproj", "{81D1958E-8829-49A4-A470-AB84093EC61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazWasmDemo.Client", "BlazWasmDemo\Client\BlazWasmDemo.Client.csproj", "{62D69451-40D4-421E-AD36-46BDCA661B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazWasmDemo.Shared", "BlazWasmDemo\Shared\BlazWasmDemo.Shared.csproj", "{36301188-3712-4CA7-AAB9-B4D200CF8C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{C6810FD1-931D-4E1D-9FFB-2CF3B1DCA821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{C017F2FC-C89A-43D8-9645-C5AB6F25956B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52CADD5D-F44D-44BC-92C9-1FB5E9F7039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CADD5D-F44D-44BC-92C9-1FB5E9F7039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CADD5D-F44D-44BC-92C9-1FB5E9F7039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CADD5D-F44D-44BC-92C9-1FB5E9F7039E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D1958E-8829-49A4-A470-AB84093EC61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D1958E-8829-49A4-A470-AB84093EC61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D1958E-8829-49A4-A470-AB84093EC61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D1958E-8829-49A4-A470-AB84093EC61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D69451-40D4-421E-AD36-46BDCA661B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D69451-40D4-421E-AD36-46BDCA661B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D69451-40D4-421E-AD36-46BDCA661B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D69451-40D4-421E-AD36-46BDCA661B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36301188-3712-4CA7-AAB9-B4D200CF8C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36301188-3712-4CA7-AAB9-B4D200CF8C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36301188-3712-4CA7-AAB9-B4D200CF8C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36301188-3712-4CA7-AAB9-B4D200CF8C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6810FD1-931D-4E1D-9FFB-2CF3B1DCA821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6810FD1-931D-4E1D-9FFB-2CF3B1DCA821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6810FD1-931D-4E1D-9FFB-2CF3B1DCA821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6810FD1-931D-4E1D-9FFB-2CF3B1DCA821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C017F2FC-C89A-43D8-9645-C5AB6F25956B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C017F2FC-C89A-43D8-9645-C5AB6F25956B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C017F2FC-C89A-43D8-9645-C5AB6F25956B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C017F2FC-C89A-43D8-9645-C5AB6F25956B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81D1958E-8829-49A4-A470-AB84093EC61A} = {25961A62-65F6-4CF1-92FC-BA9B04F25137}
+		{62D69451-40D4-421E-AD36-46BDCA661B76} = {25961A62-65F6-4CF1-92FC-BA9B04F25137}
+		{36301188-3712-4CA7-AAB9-B4D200CF8C3C} = {25961A62-65F6-4CF1-92FC-BA9B04F25137}
+	EndGlobalSection
+EndGlobal
